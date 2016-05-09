@@ -1,5 +1,7 @@
 package client
 
+import com.mmpce.storage.model.ModFileFormat
+
 config {
     mod   "inventory_tweaks"
     group "client"
@@ -7,6 +9,7 @@ config {
     file {
         id   = "inventory_tweaks_main"
         path = "InvTweaks.cfg"
+        type  = ModFileFormat.PROPERTY
     }
     file {
         id   = "inventory_tweaks_rules"
@@ -15,8 +18,6 @@ config {
     file {
         id   = "inventory_tweaks_tree"
         path = "InvTweaksTree.txt"
+        type  = ModFileFormat.XML
     }
-//    options {
-//
-//    }
 }

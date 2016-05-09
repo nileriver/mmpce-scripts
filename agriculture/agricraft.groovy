@@ -1,5 +1,7 @@
 package agriculture
 
+import com.mmpce.storage.model.ModFileFormat
+
 config {
     mod   "agricraft"
     group "agriculture"
@@ -7,6 +9,7 @@ config {
     file {
         id   = "agricraft_main"
         path = "agricraft/Configuration.cfg"
+        type  = ModFileFormat.FORGE_PROPS
     }
     file {
         id   = "agricraft_custom_crops"

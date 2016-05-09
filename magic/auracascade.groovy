@@ -3,12 +3,12 @@ package magic
 import com.mmpce.storage.model.ModFileFormat
 
 config {
-    mod   "botania"
+    mod   "auracascade"
     group "magic"
-    name  "Botania"
+    name  "Aura Cascade"
     file {
-        id   = "botania_main"
-        path = "Botania.cfg"
+        id   = "auracascade_main"
+        path = "aura.cfg"
         type  = ModFileFormat.FORGE_PROPS
     }
 }

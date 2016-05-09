@@ -1,5 +1,7 @@
 package magic
 
+import com.mmpce.storage.model.ModFileFormat
+
 config {
     mod   "thaumcraft"
     group "magic"
@@ -7,5 +9,6 @@ config {
     file {
         id   = "thaumcraft_main"
         path = "Thaumcraft.cfg"
+        type  = ModFileFormat.FORGE_PROPS
     }
 }

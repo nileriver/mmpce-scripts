@@ -3,6 +3,7 @@ package lib
 config {
     mod   "cofh"
     group "lib"
+    name  "CoFH"
     file {
         id   = "cofh_main"
         path = "cofh/CoFHCore.cfg"

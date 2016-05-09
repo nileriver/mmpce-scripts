@@ -1,5 +1,7 @@
 package client
 
+import com.mmpce.storage.model.ModFileFormat
+
 config {
     mod   "waila"
     group "client"
@@ -7,6 +9,7 @@ config {
     file {
         id   = "waila_main"
         path = "Waila.cfg"
+        type  = ModFileFormat.FORGE_PROPS
     }
 //    options {
 //

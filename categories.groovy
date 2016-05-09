@@ -37,6 +37,10 @@ category{
     label = "Tinkers Construct addons"
 }
 category{
+    id    = "addons_bloodmagic"
+    label = "Blood Magic addons"
+}
+category{
     id    = "addons_waila"
     label = "Waila addons"
 }
