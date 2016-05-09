@@ -12,4 +12,8 @@ config {
         id   = "buildcraft_compat"
         path = "buildcraft/compat.cfg"
     }
+    file {
+        id   = "buildcraft_objects"
+        path = "buildcraft/obects.cfg"
+    }
 }

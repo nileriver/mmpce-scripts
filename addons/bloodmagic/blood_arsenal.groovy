@@ -3,12 +3,12 @@ package addons.bloodmagic
 import com.mmpce.storage.model.ModFileFormat
 
 config {
-    mod   "arcanearteries"
+    mod   "blood_arsenal"
     group "addons_bloodmagic"
-    name  "ArcaneArteries"
+    name  "Blood Arsenal"
     file {
-        id   = "arcanearteries_main"
-        path = "arcanearteries.cfg"
+        id   = "blood_arsenal_main"
+        path = "BloodArsenal.cfg"
         type  = ModFileFormat.FORGE_PROPS
     }
 }
