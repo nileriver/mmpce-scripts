@@ -7,5 +7,6 @@ config {
     file {
         id   = "extrabiomes_main"
         path = "extrabiomes.cfg"
+        type = FORGE_PROPS
     }
 }

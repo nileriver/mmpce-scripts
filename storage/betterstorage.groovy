@@ -1,7 +1,5 @@
 package storage
 
-import com.mmpce.storage.model.ModFileFormat
-
 config {
     mod   "betterstorage"
     group "storage"
@@ -9,7 +7,7 @@ config {
     file {
         id   = "betterstorage_main"
         path = "betterstorage.cfg"
-        type = ModFileFormat.FORGE_PROPS
+        type = FORGE_PROPS
     }
 //    options {
 //

@@ -43,4 +43,8 @@ config {
         id   = "agricraft_spread"
         path = "agricraft/SpreadChancesOverrides.txt"
     }
+    files {
+        regex = /agricraft\/(.*)\.txt/
+        id    = "agricraft_%1"
+    }
 }

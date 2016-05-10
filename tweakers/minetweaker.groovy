@@ -1,8 +1,5 @@
 package tweakers
 
-import com.mmpce.storage.model.ModFileFormat
-
-
 config {
     mod   "minetweaker"
     group "tweakers"
@@ -10,6 +7,6 @@ config {
     files {
         regex = /(.*)\.zs/
         id    = "minetweaker_script_%1"
-        type  = ModFileFormat.ZSCRIPT
+        type  = ZSCRIPT
     }
 }

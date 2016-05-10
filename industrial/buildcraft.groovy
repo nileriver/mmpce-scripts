@@ -1,5 +1,7 @@
 package industrial
 
+import com.mmpce.storage.model.ModFileFormat
+
 config {
     mod   "buildcraft"
     group "industrial"
@@ -7,13 +9,16 @@ config {
     file {
         id   = "buildcraft_main"
         path = "buildcraft/main.conf"
+        type  = ModFileFormat.FORGE_PROPS
     }
     file {
         id   = "buildcraft_compat"
         path = "buildcraft/compat.cfg"
+        type  = ModFileFormat.FORGE_PROPS
     }
     file {
         id   = "buildcraft_objects"
-        path = "buildcraft/obects.cfg"
+        path = "buildcraft/objects.cfg"
+        type  = ModFileFormat.FORGE_PROPS
     }
 }

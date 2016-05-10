@@ -7,9 +7,11 @@ config {
     file {
         id   = "natura_main"
         path = "Natura.cfg"
+        type = FORGE_PROPS
     }
     file {
         id   = "natura_dynamic"
         path = "Natura-Dynamic.json"
+        type = JSON
     }
 }

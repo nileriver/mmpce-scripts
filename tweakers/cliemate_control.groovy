@@ -1,8 +1,5 @@
 package tweakers
 
-import com.mmpce.storage.model.ModFileFormat
-
-
 config {
     mod   "climate_control"
     group "tweakers"
@@ -10,11 +7,11 @@ config {
     file {
         id   = "climate_control_main"
         path = "climatecontrol.cfg"
-        type  = ModFileFormat.FORGE_PROPS
+        type  = FORGE_PROPS
     }
     files {
         regex = /ClimateControl\/(.*)\.cfg/
         id    = "climate_control_extension_%1"
-        type  = ModFileFormat.FORGE_PROPS
+        type  = FORGE_PROPS
     }
 }
