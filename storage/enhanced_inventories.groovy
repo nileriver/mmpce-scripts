@@ -9,6 +9,11 @@ config {
         path = "EnhancedInventories/main.cfg"
         type = FORGE_PROPS
     }
+    file {
+        id   = "enhanced_inventories_main_main"
+        path = "EnhancedInventories.cfg"
+        type = FORGE_PROPS
+    }
     files {
         regex = /EnhancedInventories\/recipes\/(.*)\.json/
         id    = "enchanced_inventories_recipes_%1"

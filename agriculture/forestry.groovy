@@ -59,4 +59,9 @@ config {
         path = "forestry/gamemodes/OP.conf"
         type  = PROPERTY
     }
+    file {
+        id   = "forestry_gamemode_easy"
+        path = "forestry/gamemodes/EASY.conf"
+        type  = PROPERTY
+    }
 }

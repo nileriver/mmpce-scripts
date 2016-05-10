@@ -1,4 +1,5 @@
 //todo: rewrite dsl for this file. looks like shit
+//todo: add sorting
 category{
     id    = "decorations"
     label = "Decorations"

@@ -7,6 +7,7 @@ config {
     file {
         id   = "thaumcraft_nei_plugin_main"
         path = "thaumcraftneiplugin.cfg"
+        type  = FORGE_PROPS
     }
 //    options {
 //
