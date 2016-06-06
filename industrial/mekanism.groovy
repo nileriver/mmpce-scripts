@@ -14,5 +14,6 @@ config {
     file {
         id   = "mekanism_box_blacklist"
         path = "mekanism/BoxBlacklist.txt"
+        type = RAW
     }
 }

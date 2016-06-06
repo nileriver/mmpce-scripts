@@ -76,3 +76,11 @@ category{
     id    = "client"
     label = "Client side"
 }
+category{
+    id    = "dimensions"
+    label = "Dimensions"
+}
+category{
+    id    = "npc"
+    label = "NPC"
+}

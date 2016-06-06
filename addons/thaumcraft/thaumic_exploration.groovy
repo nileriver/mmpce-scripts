@@ -7,6 +7,7 @@ config {
     file {
         id   = "thaumic_exploration_main"
         path = "ThaumicExploration.cfg"
+        type  = FORGE_PROPS
     }
 //    options {
 //

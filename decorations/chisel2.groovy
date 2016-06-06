@@ -7,5 +7,6 @@ config {
     file {
         id   = "chisel2_main"
         path = "chisel.cfg"
+        type  = FORGE_PROPS
     }
 }

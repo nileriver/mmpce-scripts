@@ -7,8 +7,6 @@ config {
     file {
         id   = "better_title_screen_main"
         path = "BetterTitleScreen.cfg"
+        type  = FORGE_PROPS
     }
-//    options {
-//
-//    }
 }

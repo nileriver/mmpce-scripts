@@ -7,8 +7,6 @@ config {
     file {
         id   = "storage_drawers"
         path = "StorageDrawers.cfg"
+        type  = FORGE_PROPS
     }
-//    options {
-//
-//    }
 }

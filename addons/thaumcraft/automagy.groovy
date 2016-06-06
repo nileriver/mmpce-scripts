@@ -7,6 +7,7 @@ config {
     file {
         id   = "automagy_main"
         path = "Automagy.cfg"
+        type  = FORGE_PROPS
     }
 //    options {
 //

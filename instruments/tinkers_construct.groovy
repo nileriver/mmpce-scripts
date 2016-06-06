@@ -7,5 +7,6 @@ config {
     file {
         id   = "tinkers_construct_main"
         path = "TinkersConstruct.cfg"
+        type = FORGE_PROPS
     }
 }

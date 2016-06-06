@@ -40,4 +40,14 @@ config {
         id    = "cofh_core_%1"
         type  = ModFileFormat.FORGE_PROPS
     }
+    files {
+        regex = /cofh\/world\/(.*)\.json/
+        id    = "cofh_world_%1"
+        type  = ModFileFormat.JSON
+    }
+    files {
+        regex = /cofh\/old\/(.*)\.json/
+        id    = "cofh_old_%1"
+        type  = ModFileFormat.JSON
+    }
 }

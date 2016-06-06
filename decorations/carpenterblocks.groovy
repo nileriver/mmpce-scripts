@@ -6,5 +6,6 @@ config {
     file {
         id   = "carpenters_blocks_main"
         path = "CarpentersBlocks.cfg"
+        type  = FORGE_PROPS
     }
 }

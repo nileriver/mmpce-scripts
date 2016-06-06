@@ -1,7 +1,5 @@
 package lib
 
-import com.mmpce.storage.model.ModFileFormat
-
 config {
     mod   "forge"
     group "lib"
@@ -9,10 +7,11 @@ config {
     file {
         id   = "forge_main"
         path = "forge.cfg"
+        type  = FORGE_PROPS
     }
     file {
         id   = "forge_chunk_loading"
         path = "forgeChunkLoading.cfg"
-        type  = ModFileFormat.FORGE_PROPS
+        type  = FORGE_PROPS
     }
 }

@@ -7,8 +7,6 @@ config {
     file {
         id   = "witching_gadgets_main"
         path = "WitchingGadgets.cfg"
+        type  = FORGE_PROPS
     }
-//    options {
-//
-//    }
 }
