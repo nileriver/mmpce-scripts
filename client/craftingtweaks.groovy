@@ -1,6 +1,6 @@
 package client
 
-import com.mmpce.storage.model.ModFileFormat
+import com.mmpce.storage.model.mods.ModFileFormat
 
 config {
     mod   "craftingtweaks"
